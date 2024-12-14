@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+  }
+  li {
+    list-style: none;
+  }
+  span {
+    color: lightcoral;
+  }
+  .btn {
+    width: 70px;
+    height: 35px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: lightpink;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  .btn:hover,
+  a:hover {
+    color: rgb(255, 2, 86);
+  }
+
+  .main {
+    width: 100%;
+    height: 600px;
+  }
+  header {
+    width: 100%;
+    height: 45px;
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  .logo img {
+    width: 30px;
+    height: 30px;
+  }
+  .logo h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  nav ul {
+    display: flex;
+    gap: 50px;
+    margin-right: 30px;
+  }
+
+  .home-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .home-text {
+    position: relative;
+    top: 200px;
+  }
+  .home-text h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .home-text h1 img {
+    width: 50px;
+  }
+  .home-text p {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  .home-text .btn {
+    width: 120px;
+  }
+  .home-img {
+    width: 500px;
+  }
+  .home-img img {
+    width: 100%;
+    position: relative;
+    top: 100px;
+  }
+
+
+  .about {
+    width: 100%;
+    height: 600px;
+  }
+  .about-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .about-img {
+    border-right: 2px solid lightcoral;
+  }
+  .about-img img {
+    width: 500px;
+  }
+  .heading {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .heading h1 {
+    border-bottom: 3px solid rgb(247, 89, 115);
+    border-radius: 0.3rem;
+  }
+  .about-text h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+  .about-text h1 img {
+    width: 45px;
+    height: 45px;
+  }
+  .about-text p {
+    margin-bottom: 10px;
+  }
+  .about-text .btn {
+    width: 140px;
+  }
+
+
+  .popular {
+    width: 100%;
+    height: 600px;
+  }
+  .donut-boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .donut-box {
+    width: 300px;
+    height: 410px;
+    border: 2px solid lightcoral;
+    border-radius: 0.7rem;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2),
+      0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.1s ease;
+  }
+  .donut-img {
+    width: 100%;
+    height: 60%;
+  }
+  .donut-box img {
+    width: 60%;
+    margin: 20px 60px;
+  }
+  .donut-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .donut-text h1 {
+    font-size: 1.7rem;
+  }
+  .donut-text h2 {
+    font-size: 1.3rem;
+  }
+  .donut-buy {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .donut-buy .btn {
+    width: 130px;
+  }
+  .donut-buy h1 {
+    width: 25px;
+    height: 25px;
+    border: 3px solid lightcoral;
+    border-radius: 50%;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightcoral;
+    cursor: pointer;
+  }
+  .donut-buy h1:hover {
+    background: white;
+    color: lightcoral;
+  }
+
+ 
+  .contact-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .number {
+    display: none; 
+    color: lightcoral;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .number img {
+    width: 18px;
+    height: 18px;
+  }
+  .contact-content.active .number {
+    display: block; 
+  }
+
+
+
+  
+  
